@@ -17,7 +17,7 @@ struct IOSFolderListView: View {
             ImageTextComponentView(text: "Custom Folder")
         }
         .listStyle(GroupedListStyle())
-        .navigationTitle("Folders")
+        .navigationBarTitle("Folders")
         .navigationBarItems(leading: Image(systemName: "folder.badge.plus").adoptToImageModifier(withSize: 20), trailing: Image(systemName: "square.and.pencil").adoptToImageModifier(withSize: 16))
     }
 }

@@ -13,21 +13,9 @@ struct IOSTestListPinnedSectionView: View {
         HStack {
             TestListPinnedSectionView()
             Spacer()
-            
-            if isPinnedSectionExpanded {
-                Image(systemName: "chevron.down").adoptToImageModifier()
-                    .onTapGesture {
-                        withAnimation {
-                            isPinnedSectionExpanded.toggle()
-                        }
-                    }
-            } else {
-                Image(systemName: "chevron.right").adoptToImageModifier()
-                    .onTapGesture {
-                        withAnimation {
-                            isPinnedSectionExpanded.toggle()
-                        }
-                    }
+            Image(systemName: isPinnedSectionExpanded ? "chevron.down" : "chevron.right").adoptToImageModifier()
+                .onTapGesture {
+                        self.isPinnedSectionExpanded.toggle()
             }
         }
     }

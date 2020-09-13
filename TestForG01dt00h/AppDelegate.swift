@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  TestForG01dt00h
+//  112233
 //
-//  Created by Kirill Pustovalov on 13.09.2020.
+//  Created by g01dt00th on 13.09.2020.
+//  Copyright © 2020 Denis Roenko. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
@@ -33,4 +34,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

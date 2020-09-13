@@ -33,7 +33,7 @@ struct IOSTestListView: View {
         }
         .listRowBackground(Color(.systemGray6))
         .listStyle(GroupedListStyle())
-        .navigationTitle("Tests")
+        .navigationBarTitle("Tests")
         .navigationBarItems(trailing: Image(systemName: "square.and.pencil").adoptToImageModifier(withSize: 16))
     }
 }

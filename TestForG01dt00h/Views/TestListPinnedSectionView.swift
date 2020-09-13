@@ -10,7 +10,7 @@ import SwiftUI
 struct TestListPinnedSectionView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
-            Spacer()
+//            Spacer()
             HStack {
                 Image(systemName: "pin.fill")
                     .resizable()
@@ -22,7 +22,7 @@ struct TestListPinnedSectionView: View {
                     .font(.callout)
                     .foregroundColor(Color(.systemGray))
             }
-            Spacer()
+//            Spacer()
         }
     }
 }
